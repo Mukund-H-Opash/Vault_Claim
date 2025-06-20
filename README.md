@@ -34,7 +34,7 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your_username/vault-claim.git
+    git clone https://github.com/Mukund-H-Opash/vault-claim.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
