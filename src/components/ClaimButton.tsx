@@ -17,7 +17,7 @@ const ClaimButton: React.FC<ClaimButtonProps> = ({ isEnabled, onClick }) => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full align-middle flex items-center">
       <button
         onClick={handleClick}
         disabled={!isEnabled}
