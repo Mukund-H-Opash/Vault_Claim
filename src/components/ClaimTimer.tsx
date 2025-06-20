@@ -7,7 +7,7 @@ interface ClaimTimerProps {
   duration?: number;
 }
 
-const ClaimTimer: React.FC<ClaimTimerProps> = ({ onTimerEnd, paused, duration = 10 }) => {
+const ClaimTimer: React.FC<ClaimTimerProps> = ({ onTimerEnd, paused, duration = 59 }) => {
   const initialTime = duration + 1;
   const [timeLeft, setTimeLeft] = useState<number>(initialTime);
   const timerRef = useRef<number | null>(null);

@@ -6,7 +6,7 @@ interface STBalanceProps {
 }
 
 const STBalance: React.FC<STBalanceProps> = ({ balance }) => {
-  const maxBalance = 10000;
+  const maxBalance = 25000;
   const progress = Math.min((balance / maxBalance) * 100, 100);
 
   return (
